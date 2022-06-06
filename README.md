@@ -37,6 +37,6 @@ arquivo na pasta raiz - index.js
 
 4 - copie o codigo do meu GitHub.com: ogait-ashtar no repositorio pokedex.
 
-5 - ou acesse o link do hiroku para colecionar seus pokemons - https://pokedex-mvc.herokuapp.com/
+5 - ou acesse o link do hiroku para colecionar seus pokemons - https://catalogobandas.herokuapp.com/
 
 6 - Possibilidades - Cadastrar suas Bandas - deletar suas Bandas - Editar suas Bandas
