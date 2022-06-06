@@ -104,4 +104,4 @@ app.get("/delete/:id", (req, res) =>{
 
 //porta
 
-app.listen(3000, () => console.log(`Servidor rodando em http://localhost:${port}`));
+app.listen(port, () => console.log(`Servidor rodando em http://localhost:${port}`));
