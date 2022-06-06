@@ -1,7 +1,3 @@
-
-
-
-
 //validação input
 const labelNome = document.querySelector("#labelNome");
 const inputNome = document.querySelector("#nome");
@@ -15,7 +11,7 @@ const inputEstilo = document.querySelector("#estilo");
 const labelImagem = document.querySelector("#labelImagem");
 const inputImagem = document.querySelector("#imagem");
 
-const button = document.querySelector("btnCadastrar");
+const button = document.querySelector("#btnCadastrar");
 
 const closeMessage = document.querySelector("#close");
 const message = document.querySelector("#message");

@@ -16,25 +16,25 @@ const catalogoBandas = [
     {
         id: 1,
         nome:"Black Sabbath",
-        descricao: "Melhor banda do planeta",
+        descricao: "Black Sabbath foi uma banda de heavy metal britânica formada no ano de 1968 em Birmingham pelo guitarrista e principal compositor Tony Iommi, o baixista e principal letrista Geezer Butler, o vocalista Ozzy Osbourne e o baterista Bill Ward.",
         estilo: "Heavy Metal",
         imagem: "https://pre00.deviantart.net/2a9d/th/pre/f/2014/171/5/4/black_sabbath_logo__furry_version_with_fox__by_goldyfox-d7n6yxv.png",
     },
 
     {
         id: 2,
-        nome:"Black Sabbath",
-        descricao: "Melhor banda do planeta",
-        estilo: "Heavy Metal",
-        imagem: "https://pre00.deviantart.net/2a9d/th/pre/f/2014/171/5/4/black_sabbath_logo__furry_version_with_fox__by_goldyfox-d7n6yxv.png",
+        nome:"Death",
+        descricao: "Death foi uma banda dos Estados Unidos, originária de Orlando, Flórida, fundada em 1983 e considerada uma das principais desenvolvedoras e difusoras do death metal.",
+        estilo: " Death metal",
+        imagem: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAzhMzJAWj7xcqsR_b0BILTy-K9W2MFfzizy8YvGoQw4EgK3mJakBpCJzbLWJNNfMZ3ro&usqp=CAU",
     },
 
     {
         id: 3,
-        nome:"Black Sabbath",
-        descricao: "Melhor banda do planeta",
-        estilo: "Heavy Metal",
-        imagem: "https://pre00.deviantart.net/2a9d/th/pre/f/2014/171/5/4/black_sabbath_logo__furry_version_with_fox__by_goldyfox-d7n6yxv.png",
+        nome:"Slayer",
+        descricao: "Slayer foi uma banda norte-americana de thrash metal proveniente de Huntington Park, Califórnia, formada em 1981 pelos guitarristas Jeff Hanneman e Kerry King",
+        estilo: "Thrash Metal",
+        imagem: "https://logoeps.com/wp-content/uploads/2013/05/slayer-band-vector-logo.png",
     },
 ]
 

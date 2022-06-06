@@ -1,3 +1,5 @@
+/*estilização do corpo da pg*/
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&family=Roboto:ital,wght@0,300;1,300&display=swap");
 
 * {
@@ -5,7 +7,7 @@
   padding: 0;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   scroll-behavior: smooth; /*deixa o scroll mais lento*/
-  /* box-sizing: border-box; */
+  
 }
 
 body {
@@ -16,6 +18,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
 }
+
+/*estilização do nav*/
 
 nav {
   display: flex;
@@ -51,9 +55,10 @@ nav ul li a {
   font-size: 1.3rem;
 }
 
+/*estilização da mensagem de cadastro*/
+
 section#message {
   padding: 1.5rem;
-  margin-top: 1rem;
   background-color: black;
   color: white;
   position: fixed;
@@ -84,9 +89,13 @@ span#close:hover {
   transform: scale(1.5);
 }
 
+/*estilização do main*/
+
 main {
   margin: 0 auto;
 }
+
+/*estilização dos cards */
 
 section#cards {
   display: flex;
@@ -100,6 +109,12 @@ section#cards div.card {
   box-shadow: 5px 5px 5px 5px #00000015;
   padding: 1rem;
   margin: 3rem 0 5rem 0;
+  
+}
+
+section#cards div.card:hover{
+  transform: scale(1.1);
+  transition: all .6s ease-in-out;
 }
 
 section#cards h2 {
@@ -165,7 +180,7 @@ section#cadastrar {
   display: flex;
   justify-content: center;
   padding: 5rem;
-  margin-bottom: 19rem;
+  margin-bottom: 16.5rem;
 }
 
 section#cadastrar h2 {
@@ -212,6 +227,8 @@ section#cadastrar form button:hover {
   color: white;
 }
 
+/*estilização do footer*/
+
 footer {
   background-color: black;
 
@@ -232,4 +249,32 @@ footer a {
   text-decoration: none;
   color: white;
   font-weight: 600;
+}
+
+/*media query */
+
+@media(max-width:529px){
+  section#cadastrar form button{
+    width: 60%;
+  }
+}
+
+@media(max-width:820px){
+  section#cadastrar{
+    margin-bottom: 16.5rem;
+  }
+}
+
+@media(max-width:295px){
+  nav ul li a{
+    font-size: 70%;
+    width: 100%;
+  }
+}
+
+
+@media(max-width:280px){
+  footer{
+    display: none;
+  }
 }
