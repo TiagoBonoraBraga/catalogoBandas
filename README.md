@@ -35,7 +35,7 @@ arquivo na pasta raiz - index.js
                                - npm i ejs - para instalar o .ejs
 3 - para rodar coloque no terminal do VSCODE - npm run dev - em abra a porta 3000 htt://localhost:3000 no navegador
 
-4 - copie o codigo do meu GitHub.com: ogait-ashtar no repositorio pokedex.
+4 - copie o codigo do meu GitHub.com: ogait-ashtar no repositorio catalogoBandas.
 
 5 - ou acesse o link do hiroku para colecionar seus pokemons - https://catalogobandas.herokuapp.com/
 
