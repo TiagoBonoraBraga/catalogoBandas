@@ -1,4 +1,4 @@
-// require("dotenv").config();//para o hiroko 
+require("dotenv").config();//para o hiroko 
 const express = require("express");
 const { set } = require("express/lib/application");
 
@@ -104,6 +104,4 @@ app.get("/delete/:id", (req, res) =>{
 
 //porta
 
-app.listen(3000,() =>{
-    console.log(`Servidor rodando em http://localhost:3000`);
-})
+app.listen(3000, () => console.log(`Servidor rodando em http://localhost:${port}`));
