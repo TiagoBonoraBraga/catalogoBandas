@@ -52,6 +52,12 @@ nav ul li a {
   text-decoration: none;
   color: white;
   font-size: 1.3rem;
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  transform: scale(1.1);
+  transition: all 0.6s ease-in-out;
 }
 
 /*estilização da mensagem de cadastro*/
@@ -262,8 +268,8 @@ section.outras {
   }
 }
 
-@media (max-width: 912px) and (min-width:768px) {
-  footer{
+@media (max-width: 912px) and (min-width: 768px) {
+  footer {
     display: none;
   }
 }
