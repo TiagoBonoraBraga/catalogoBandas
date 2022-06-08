@@ -262,9 +262,9 @@ section.outras {
   }
 }
 
-@media (max-width: 820px) {
-  section#cadastrar {
-    margin-bottom: 16.5rem;
+@media (max-width: 912px) and (min-width:768px) {
+  footer{
+    display: none;
   }
 }
 
